@@ -10,7 +10,7 @@ TARGET_BOOTLOADER_BOARD_NAME := thunderc
 
 BOARD_KERNEL_CMDLINE := mem=477M console=ttyMSM2,115200n8 androidboot.hardware=thunderc
 BOARD_KERNEL_BASE := 0x12200000
-BOARD_KERNEL_PAGESIZE := 00000800
+BOARD_KERNEL_PAGESIZE := 2048
 
 # fix this up by examining /proc/mtd on a running device
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x105c0000
